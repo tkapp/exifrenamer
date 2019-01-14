@@ -1,0 +1,17 @@
+plugins {
+  id 'java'
+  id 'eclipse'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+  compile group: 'com.drewnoakes', name: 'metadata-extractor', version: '2.11.0'
+  compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+  compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
+  compile group: 'org.slf4j', name: 'slf4j-log4j', version: '1.7.25'
+
+  testCompile 'junit:junit:4.12'
+}
